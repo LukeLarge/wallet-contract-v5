@@ -25,7 +25,7 @@ jobs:
         run: echo "NVMRC=$(cat .nvmrc)" >> $GITHUB_ENV
 
       - name: Set up Node.js
-        uses: actions/setup-node@7c12f8017d5436eb855f1ed4399f037a36fbd9e8 # v2.5.2
+        uses: actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f # v6.3.0.5.6.3.0
         with:
           node-version: '${{ env.NVMRC }}'
 
